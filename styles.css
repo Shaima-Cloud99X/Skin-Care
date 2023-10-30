@@ -73,15 +73,19 @@ body{
   .search-container {
     text-align: center;
     margin: 20px;
-    background-color: transparent
+    width: 700px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 input[type="text"] {
     padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
     width: 200px;
     font-size: 16px;
     outline: none;
    background-color: #EEEAE1;
+   width: 700px;
+
 }
