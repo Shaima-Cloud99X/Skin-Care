@@ -1,8 +1,24 @@
-body{
-    padding: 10px;
-    background-color: #EEEAE1;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/* Font*/
+@font-face {
+  font-family: 'Poppins-Regular'; 
+  src: url('font/Poppins font/Poppins-Regular.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
 }
 
+@font-face {
+  font-family: 'Poppins-Light'; 
+  src: url('font/Poppins fonts/Poppins-Regular.ttf') format('truetype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  padding: 10px;
+  background-color: #EEEAE1;
+}
 .navbar {
     background-color: #1C1B19; /* Background color for the navbar */
     color: #fff; /* Text color for the navbar items */
@@ -20,7 +36,7 @@ body{
     margin-right: 5%;
     margin-top: 10px;
     height: 40px;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family:  'Poppins-Regular', sans-serif;
     font-size: 12px;
   }
 
@@ -50,6 +66,6 @@ body{
     color: #fff; /* Text color for the menu items */
     margin-left: 10%;
     padding-left: 30px;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-family:  'Poppins-Regular', sans-serif;
     font-size: 13px;
   }
