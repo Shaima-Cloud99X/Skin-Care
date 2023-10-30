@@ -63,7 +63,7 @@ body{
 
   .navbar .menu li a {
     text-decoration: none;
-    color: #fff; /* Text color for the menu items */
+    color: #EEEAE1; /* Text color for the menu items */
     margin-left: 10%;
     padding-left: 30px;
     font-family:  'Poppins-Regular', sans-serif;
