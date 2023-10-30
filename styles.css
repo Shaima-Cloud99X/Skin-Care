@@ -1,0 +1,51 @@
+body{
+    padding: 10px;
+    background-color: #EEEAE1;
+}
+
+.navbar {
+    background-color: #1C1B19; /* Background color for the navbar */
+    color: #fff; /* Text color for the navbar items */
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  /* Style for the button */
+ .button {
+    float: right;
+    padding: 10px 20px;
+    background-color: #EEEAE1; /* Background color for the button */
+    border: none;
+    color: #1C1B19; /* Text color for the button */
+    margin-right: 5%;
+    margin-top: 10px;
+    height: 40px;
+  }
+
+  /* Style for the logo */
+  .navbar .logo {
+     float: left;
+    padding: 20px;
+    height: 30px;
+   
+  }
+
+  /* Style for the navigation menu items */
+  .navbar .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 25px ;
+  }
+
+  .navbar .menu li {
+    display: inline;
+    margin-right: 5px; /* Add some spacing between menu items */
+    
+  }
+
+  .navbar .menu li a {
+    text-decoration: none;
+    color: #fff; /* Text color for the menu items */
+    margin-left: 10%;
+    padding-left: 30px;
+  }
