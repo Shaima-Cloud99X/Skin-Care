@@ -73,6 +73,7 @@ body{
   .search-container {
     text-align: center;
     margin: 20px;
+    background-color: transparent
 }
 
 input[type="text"] {
@@ -82,4 +83,5 @@ input[type="text"] {
     width: 200px;
     font-size: 16px;
     outline: none;
+   background-color: #EEEAE1;
 }
